@@ -1,0 +1,39 @@
+{
+  "name": "svelte-color-switch",
+  "version": "0.0.5",
+  "description": "Hello! this is the description",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "build": "rollup --config",
+    "dev": "rollup -c -w"
+  },
+  "homepage": "https://mokollmar.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokollmar/svelte-color-switch.git"
+  },
+  "keywords": [
+    "svelte",
+    "svelte dynamic color",
+    "svelte color",
+    "svelte color switch",
+    "svelte switch color",
+    "color switch",
+    "switch color"
+  ],
+  "author": "@mokollmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokollmar/svelte-color-switch/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.18.0",
+    "rollup-plugin-svelte": "^7.2.2"
+  },
+  "type": "module"
+}
