@@ -1,6 +1,6 @@
 {
   "name": "svelte-color-switch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hello! this is the description",
   "main": "src/index.js",
   "module": "src/index.mjs",
@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "postinstall": "node postinstall.js",
+    "postinstall": "node setup.js",
     "build": "rollup --config",
     "dev": "rollup -c -w"
   },
