@@ -2,9 +2,15 @@
   "name": "svelte-color-switch",
   "version": "0.0.5",
   "description": "Hello! this is the description",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "files": ["src"],
   "svelte": "src/index.js",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.js"
+    }
+  },
   "scripts": {
     "postinstall": "node postinstall.js",
     "build": "rollup --config",
